@@ -155,13 +155,6 @@ def lightning_fast_heading_classifier(header_text):
 
 ## Building and Running the Solution
 
-### Prerequisites
-- **Docker**: Version 20.0+ with BuildKit support
-- **System Requirements**: 
-  - RAM: 4GB minimum, 8GB recommended
-  - CPU: 4+ cores recommended for optimal performance
-  - Storage: 2GB free space for model and dependencies
-
 ### Docker Build Process
 
 #### Step 1: Clone and Navigate
@@ -305,6 +298,8 @@ gc.collect()  # Called after each document (default)
 #### Detection Results
 ![YOLO Detection Results](yolo_example_images/example2.jpg)
 *YOLO model successfully detecting headings, titles, and text blocks in a research paper*
+
+### [Examples](https://github.com/akashadsare/sample-example)
 
 ### Advanced Configuration Options
 
