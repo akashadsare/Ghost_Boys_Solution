@@ -17,7 +17,7 @@ A high-performance, multilingual PDF document outline extraction system that use
 
 #### YOLO Detection Process
 ![YOLO Detection Example](yolo_example_images/example1.jpg)
-*Example showing YOLO model detecting headings (red boxes) and titles (blue boxes) in a research paper*
+*Example showing YOLO model detecting headings and titles in a research paper*
 
 ```python
 # Key YOLO configuration for heading detection
@@ -304,7 +304,7 @@ gc.collect()  # Called after each document (default)
 
 #### Detection Results
 ![YOLO Detection Results](yolo_example_images/example2.jpg)
-*YOLO model successfully detecting headings (red), titles (blue), and text blocks (green) in a multilingual research paper*
+*YOLO model successfully detecting headings, titles, and text blocks in a research paper*
 
 ### Advanced Configuration Options
 
