@@ -16,7 +16,7 @@ A high-performance, multilingual PDF document outline extraction system that use
 - **Detection Classes**: Title, Section-header, Text, List, Table, Figure, Caption
 
 #### YOLO Detection Process
-![YOLO Detection Example](yolo_example_images/detection_example.png)
+![YOLO Detection Example](yolo_example_images/example1.png)
 *Example showing YOLO model detecting headings (red boxes) and titles (blue boxes) in a research paper*
 
 ```python
@@ -110,9 +110,6 @@ def lightning_fast_heading_classifier(header_text):
 - **Neck**: PANet with feature pyramid networks
 - **Head**: Decoupled detection head for better accuracy
 
-![YOLO Model Architecture](yolo_example_images/model_architecture.png)
-*Custom YOLO model architecture optimized for document layout analysis*
-
 #### Training Specifications
 - **Dataset Size**: 12,000+ annotated documents
 - **Training Epochs**: 300 epochs with early stopping
@@ -155,9 +152,6 @@ def lightning_fast_heading_classifier(header_text):
 - **Japanese Numbering**: Recognizes 第1章 (Chapter 1), 第2節 (Section 2) patterns
 - **Universal Patterns**: Numeric (1.1.1) and Roman numeral (I, II, III) support across all languages
 - **Multilingual Keywords**: Section keywords translated for each supported language
-
-![Multilingual Detection](yolo_example_images/multilingual_example.png)
-*YOLO model detecting headings in Hindi, English, and Japanese text within the same document*
 
 ## Building and Running the Solution
 
@@ -309,7 +303,7 @@ gc.collect()  # Called after each document (default)
 ### YOLO Model Visualization Examples
 
 #### Detection Results
-![YOLO Detection Results](yolo_example_images/example1.png)
+![YOLO Detection Results](yolo_example_images/example2.png)
 *YOLO model successfully detecting headings (red), titles (blue), and text blocks (green) in a multilingual research paper*
 
 ### Advanced Configuration Options
