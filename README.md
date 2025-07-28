@@ -1,4 +1,4 @@
-# PDF Outline Extractor
+# Round 1A Solution
 
 A high-performance, multilingual PDF document outline extraction system that uses computer vision and natural language processing to automatically detect and classify document headings with 90%+(expected) accuracy across 8 languages.
 
